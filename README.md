@@ -1,29 +1,14 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Para poder correr la API proceder con los siguientes pasos:
 
-### What is this repository for? ###
+1 - configurar correctamente las credenciales de la base de datos en el archivo .env del proyecto.
+2 - correr migraciones: php artisan migrate
+3 - ejecutar en consola php artisan serve dentro de la carpeta de la api
+4 - importar en postman la coleccion compartida
+5 - importar en postman el emtorno compartido
+6 - ejecutar los servicios con las url local.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact"# apipublimovil" 
+NOTA: En la carpeta database esta el sql de toda la base, usar de ser necesario.
